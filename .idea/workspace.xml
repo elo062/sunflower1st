@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a70dbe8-3222-49d1-ad55-c29bb4379ba7" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/accueil.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery-ui/ui/i18n/jquery.datepicker.fr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bdd.php" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/HELP-US-OUT.txt" afterPath="$PROJECT_DIR$/assets/icone/HELP-US-OUT.txt" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/css/font-awesome.css" afterPath="$PROJECT_DIR$/assets/icone/css/font-awesome.css" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/assets/icone/css/font-awesome.min.css" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/assets/icone/fonts/FontAwesome.otf" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/assets/icone/fonts/fontawesome-webfont.eot" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/assets/icone/fonts/fontawesome-webfont.svg" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/assets/icone/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/assets/icone/fonts/fontawesome-webfont.woff" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/assets/icone/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/less/animated.less" afterPath="$PROJECT_DIR$/assets/icone/less/animated.less" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/assets/icone/less/bordered-pulled.less" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/less/core.less" afterPath="$PROJECT_DIR$/assets/icone/less/core.less" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/less/fixed-width.less" afterPath="$PROJECT_DIR$/assets/icone/less/fixed-width.less" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/less/font-awesome.less" afterPath="$PROJECT_DIR$/assets/icone/less/font-awesome.less" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/less/icons.less" afterPath="$PROJECT_DIR$/assets/icone/less/icons.less" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/less/larger.less" afterPath="$PROJECT_DIR$/assets/icone/less/larger.less" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/less/list.less" afterPath="$PROJECT_DIR$/assets/icone/less/list.less" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/less/mixins.less" afterPath="$PROJECT_DIR$/assets/icone/less/mixins.less" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/less/path.less" afterPath="$PROJECT_DIR$/assets/icone/less/path.less" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/assets/icone/less/rotated-flipped.less" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/less/screen-reader.less" afterPath="$PROJECT_DIR$/assets/icone/less/screen-reader.less" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/less/stacked.less" afterPath="$PROJECT_DIR$/assets/icone/less/stacked.less" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/less/variables.less" afterPath="$PROJECT_DIR$/assets/icone/less/variables.less" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/scss/_animated.scss" afterPath="$PROJECT_DIR$/assets/icone/scss/_animated.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/assets/icone/scss/_bordered-pulled.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/scss/_core.scss" afterPath="$PROJECT_DIR$/assets/icone/scss/_core.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/assets/icone/scss/_fixed-width.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/scss/_icons.scss" afterPath="$PROJECT_DIR$/assets/icone/scss/_icons.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/scss/_larger.scss" afterPath="$PROJECT_DIR$/assets/icone/scss/_larger.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/scss/_list.scss" afterPath="$PROJECT_DIR$/assets/icone/scss/_list.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/scss/_mixins.scss" afterPath="$PROJECT_DIR$/assets/icone/scss/_mixins.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/scss/_path.scss" afterPath="$PROJECT_DIR$/assets/icone/scss/_path.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/assets/icone/scss/_rotated-flipped.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/scss/_screen-reader.scss" afterPath="$PROJECT_DIR$/assets/icone/scss/_screen-reader.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/scss/_stacked.scss" afterPath="$PROJECT_DIR$/assets/icone/scss/_stacked.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/scss/_variables.scss" afterPath="$PROJECT_DIR$/assets/icone/scss/_variables.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/icone/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/assets/icone/scss/font-awesome.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/img/coeur.jpg" afterPath="$PROJECT_DIR$/assets/img/coeur.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/img/concert.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/img/festival.jpg" afterPath="$PROJECT_DIR$/assets/img/festival.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/img/guitar.jpg" afterPath="$PROJECT_DIR$/assets/img/guitar.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/img/guitar2.jpg" afterPath="$PROJECT_DIR$/assets/img/guitar2.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/img/guitar3.jpg" afterPath="$PROJECT_DIR$/assets/img/guitar3.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/img/guitar4.jpg" afterPath="$PROJECT_DIR$/assets/img/guitar4.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/img/guitar5.jpg" afterPath="$PROJECT_DIR$/assets/img/guitar5.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/img/guitar6.jpg" afterPath="$PROJECT_DIR$/assets/img/guitar6.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/img/guitar7.jpg" afterPath="$PROJECT_DIR$/assets/img/guitar7.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/img/guitar8.jpg" afterPath="$PROJECT_DIR$/assets/img/guitar8.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/img/guitar9.jpg" afterPath="$PROJECT_DIR$/assets/img/guitar9.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/img/micro.jpg" afterPath="$PROJECT_DIR$/assets/img/micro.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/img/music.jpg" afterPath="$PROJECT_DIR$/assets/img/music.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/img/qvWH51503664470.jpg" afterPath="$PROJECT_DIR$/assets/img/qvWH51503664470.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sunflower-groupe-musique-narbonne.jpg" afterPath="$PROJECT_DIR$/assets/img/sunflower-groupe-musique-narbonne.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sunflower-logo.ico" afterPath="$PROJECT_DIR$/assets/img/sunflower-logo.ico" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sunflower-logo.png" afterPath="$PROJECT_DIR$/assets/img/sunflower-logo.png" />
+      <change beforePath="$PROJECT_DIR$/assets/js/app.js" afterPath="$PROJECT_DIR$/assets/js/app.js" />
+      <change beforePath="$PROJECT_DIR$/assets/js/login.js" afterPath="$PROJECT_DIR$/assets/js/login.js" />
+      <change beforePath="$PROJECT_DIR$/autre/Burke Homes.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autre/texte" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/calendar.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/calendrier.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/calendrier_bo.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/fonctions.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/img/Thumbs.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/img/ajout.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/img/enlever.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/img/entete.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/img/icone.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/img/icones/5990-tatice-Flecheraccourci.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/img/icones/6561-babasse-Gestionnaire3D.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/img/icones/6707-Tatice-AdAware.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/img/icones/6728-vor-Xchat.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/img/icones/6733-tmos-ok.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/img/icones/Thumbs.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/img/icones/error.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/img/icones/iCal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/img/icones/prect.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/img/icones/set_prog_access_and_defaults.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/img/icones/suiv.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/img/icones/unavailable.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/img/prec.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/img/prec.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/img/suiv.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/img/suiv.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/readme.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/recuperation_ajouter.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/recuperation_enlever.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autreCalendrierResa/sql.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/__MACOSX/._ac-v3.04.01" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/__MACOSX/ac-v3.04.01/._.DS_Store" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/__MACOSX/ac-v3.04.01/._ac-config.inc.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/__MACOSX/ac-v3.04.01/ac-docs/._readme.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/__MACOSX/ac-v3.04.01/ac-docs/._release-notes.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/admin-login.admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/admin-login.adminOLD.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/admin-logout.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/admin-menu.inc.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/admin_users.admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/bookings.admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/config.admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/css/admin-calendar.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/css/admin.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/css/mootools-roar.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/dashboard.admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/forbidden.admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/icons/ajax-loader.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/icons/green_flag.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/icons/handle.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/icons/icon_add.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/icons/icon_calendar.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/icons/icon_calendar_s.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/icons/icon_cross.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/icons/icon_edit_s.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/icons/icon_pending.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/icons/icon_process.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/icons/icon_shut_down.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/icons/icon_tick.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/icons/icon_trash_s.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/icons/icon_user.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/icons/icon_users.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/icons/red_flag.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/icons/white_flag.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/images/logo_aac.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/items.admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/_vti_cnf/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/styles/_vti_cnf/main.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/styles/_vti_cnf/reset.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/styles/img/_vti_cnf/bannerbackground1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/styles/img/bannerbackground1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/styles/img/head/_vti_cnf/bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/styles/img/head/_vti_cnf/mootools.floor.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/styles/img/head/bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/styles/img/head/mootools.floor.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/styles/javascript/_vti_cnf/main.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/styles/javascript/_vti_cnf/searchdata.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/styles/javascript/main.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/styles/javascript/searchdata.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/styles/main.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/styles/reset.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/_vti_cnf/bg.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/_vti_cnf/de.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/_vti_cnf/en.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/_vti_cnf/es.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/_vti_cnf/fr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/_vti_cnf/gr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/_vti_cnf/hu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/_vti_cnf/it.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/_vti_cnf/jp.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/_vti_cnf/nl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/_vti_cnf/ru.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/bg.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/de.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/en.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/es.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/fr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/gr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/hu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/it.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/jp.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/nl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/ru.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/mootools-formcheck.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/_vti_cnf/formcheck.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/formcheck.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/_vti_cnf/b.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/_vti_cnf/bl.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/_vti_cnf/br.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/_vti_cnf/c.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/_vti_cnf/close.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/_vti_cnf/l.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/_vti_cnf/r.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/_vti_cnf/t.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/_vti_cnf/tl.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/_vti_cnf/tr.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/b.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/bl.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/br.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/c.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/close.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/l.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/r.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/t.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/tl.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/tr.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/mootools-cal-admin.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/mootools-flext.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/mootools-formcheck.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/js/mootools-roar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/languages.admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/profile.admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-admin/states.admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-config.inc.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-contents/lang/en.lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-contents/lang/es.lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-contents/themes/default/css/avail-calendar.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-contents/themes/default/css/reset.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-contents/themes/default/images/ajax-loader-day.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-contents/themes/default/images/ajax-loader-month.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-contents/themes/default/images/bg_days.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-contents/themes/default/images/half-days.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-contents/themes/default/images/icon_next.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-contents/themes/default/images/icon_next_over.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-contents/themes/default/images/icon_prev.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-contents/themes/default/images/icon_prev_over.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-contents/themes/default/images/icon_process.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-contents/themes/default/images/icon_process_over.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-contents/themes/default/images/icon_wrench.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-contents/themes/default/images/logo_aac.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-docs/.~lock.readme.txt#" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-docs/readme.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-docs/release-notes.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-includes/ajax/ajax-common.inc.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-includes/ajax/calendar.ajax.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-includes/ajax/list_order.ajax.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-includes/ajax/update-state.ajax.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-includes/ajax/update_calendar.ajax.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-includes/cal.inc.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-includes/check.inc.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-includes/common.inc.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-includes/db_connect.inc.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-includes/functions-admin.inc.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-includes/functions.inc.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-includes/js/mootools-cal-public.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-includes/js/mootools-core-1.3.2-full-compat-yc.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/ac-includes/js/mootools-more-1.3.2.1.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calendrier-resa/calendrier/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/enregistrement.php" afterPath="$PROJECT_DIR$/enregistrement.php" />
+      <change beforePath="$PROJECT_DIR$/finResa.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
+      <change beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
+      <change beforePath="$PROJECT_DIR$/header2.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/login.php" />
+      <change beforePath="$PROJECT_DIR$/mentionLegales.php" afterPath="$PROJECT_DIR$/mentionLegales.php" />
+      <change beforePath="$PROJECT_DIR$/readme.txt" afterPath="$PROJECT_DIR$/readme.txt" />
+      <change beforePath="$PROJECT_DIR$/resa.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siBackOffice/backoffice.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siBackOffice/connexionBackoffice.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siBackOffice/redirect.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siBoutique/addProduit.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siBoutique/boutique.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siBoutique/cgv.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siBoutique/modifProduit.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siBoutique/panier.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siBoutique/suppProduit.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siBoutique/traitementAddProduit.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siBoutique/traitementModifProduit.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siBoutique/traitementPanier.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/__MACOSX/._ac-v3.04.01" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/__MACOSX/ac-v3.04.01/._.DS_Store" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/__MACOSX/ac-v3.04.01/._ac-config.inc.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/__MACOSX/ac-v3.04.01/ac-docs/._readme.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/__MACOSX/ac-v3.04.01/ac-docs/._release-notes.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/admin-login.admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/admin-login.adminOLD.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/admin-logout.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/admin-menu.inc.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/admin_users.admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/bookings.admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/config.admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/css/admin-calendar.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/css/admin.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/css/mootools-roar.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/dashboard.admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/forbidden.admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/icons/ajax-loader.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/icons/green_flag.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/icons/handle.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/icons/icon_add.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/icons/icon_calendar.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/icons/icon_calendar_s.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/icons/icon_cross.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/icons/icon_edit_s.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/icons/icon_pending.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/icons/icon_process.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/icons/icon_shut_down.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/icons/icon_tick.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/icons/icon_trash_s.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/icons/icon_user.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/icons/icon_users.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/icons/red_flag.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/icons/white_flag.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/images/logo_aac.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/items.admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/_vti_cnf/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/styles/_vti_cnf/main.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/styles/_vti_cnf/reset.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/styles/img/_vti_cnf/bannerbackground1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/styles/img/bannerbackground1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/styles/img/head/_vti_cnf/bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/styles/img/head/_vti_cnf/mootools.floor.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/styles/img/head/bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/styles/img/head/mootools.floor.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/styles/javascript/_vti_cnf/main.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/styles/javascript/_vti_cnf/searchdata.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/styles/javascript/main.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/styles/javascript/searchdata.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/styles/main.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/documentation/styles/reset.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/_vti_cnf/bg.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/_vti_cnf/de.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/_vti_cnf/en.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/_vti_cnf/es.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/_vti_cnf/fr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/_vti_cnf/gr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/_vti_cnf/hu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/_vti_cnf/it.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/_vti_cnf/jp.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/_vti_cnf/nl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/_vti_cnf/ru.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/bg.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/de.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/en.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/es.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/fr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/gr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/hu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/it.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/jp.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/nl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/lang/ru.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/mootools-formcheck.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/_vti_cnf/formcheck.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/formcheck.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/_vti_cnf/b.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/_vti_cnf/bl.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/_vti_cnf/br.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/_vti_cnf/c.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/_vti_cnf/close.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/_vti_cnf/l.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/_vti_cnf/r.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/_vti_cnf/t.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/_vti_cnf/tl.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/_vti_cnf/tr.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/b.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/bl.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/br.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/c.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/close.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/l.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/r.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/t.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/tl.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/formcheck/theme/classic/img/tr.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/mootools-cal-admin.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/mootools-flext.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/mootools-formcheck.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/js/mootools-roar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/languages.admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/profile.admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-admin/states.admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-config.inc.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-contents/lang/en.lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-contents/lang/es.lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-contents/themes/default/css/avail-calendar.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-contents/themes/default/css/reset.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-contents/themes/default/images/ajax-loader-day.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-contents/themes/default/images/ajax-loader-month.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-contents/themes/default/images/bg_days.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-contents/themes/default/images/half-days.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-contents/themes/default/images/icon_next.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-contents/themes/default/images/icon_next_over.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-contents/themes/default/images/icon_prev.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-contents/themes/default/images/icon_prev_over.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-contents/themes/default/images/icon_process.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-contents/themes/default/images/icon_process_over.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-contents/themes/default/images/icon_wrench.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-contents/themes/default/images/logo_aac.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-docs/readme.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-docs/release-notes.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-includes/ajax/ajax-common.inc.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-includes/ajax/calendar.ajax.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-includes/ajax/list_order.ajax.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-includes/ajax/update-state.ajax.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-includes/ajax/update_calendar.ajax.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-includes/cal.inc.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-includes/check.inc.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-includes/common.inc.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-includes/db_connect.inc.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-includes/functions-admin.inc.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-includes/functions.inc.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-includes/js/mootools-cal-public.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-includes/js/mootools-core-1.3.2-full-compat-yc.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/ac-includes/js/mootools-more-1.3.2.1.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/calendrier-resa/calendrier/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/enregistrement.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/finResa.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/login.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/resa.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/supprimerResa.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/traitementCreerCompte.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/traitementResa.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/traitementUpdateResa.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/siResa/updateResa.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/supprimerResa.php" afterPath="$PROJECT_DIR$/supprimerResa.php" />
+      <change beforePath="$PROJECT_DIR$/traitementCreerCompte.php" afterPath="$PROJECT_DIR$/traitementCreerCompte.php" />
+      <change beforePath="$PROJECT_DIR$/traitementResa.php" afterPath="$PROJECT_DIR$/traitementResa.php" />
+      <change beforePath="$PROJECT_DIR$/traitementUpdateResa.php" afterPath="$PROJECT_DIR$/traitementUpdateResa.php" />
+      <change beforePath="$PROJECT_DIR$/updateResa.php" afterPath="$PROJECT_DIR$/updateResa.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="updateResa.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/updateResa.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding>
+                <marker date="1515425459651" expanded="true" signature="694:1654" ph="..." />
+                <marker date="1515425459651" expanded="true" signature="808:1643" ph="..." />
+                <marker date="1515425459651" expanded="true" signature="820:1553" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="supprimerResa.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/supprimerResa.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bdd.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bdd.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+              <folding>
+                <marker date="1515427026946" expanded="true" signature="270:367" ph="SELECT COUNT... relation_user_resa" />
+                <marker date="1515427026946" expanded="true" signature="270:369" ph="SELECT COUNT... relation_user_resa" />
+                <marker date="1515427026946" expanded="true" signature="870:926" ph="SELECT DATE_... reservation" />
+                <marker date="1515427026946" expanded="true" signature="1206:1312" ph="SELECT *, DA... reservation" />
+                <marker date="1515427026946" expanded="true" signature="1811:1950" ph="UPDATE `reservation`... " />
+                <marker date="1515427026946" expanded="true" signature="2550:2699" ph="SELECT *, DA... relation_user_resa" />
+                <marker date="1515427026946" expanded="true" signature="2550:2718" ph="SELECT *, DA... relation_user_resa" />
+                <marker date="1515427026946" expanded="true" signature="2911:2973" ph="SELECT id, p... user" />
+                <marker date="1515427026946" expanded="true" signature="3248:3327" ph="SELECT COUNT... reservation" />
+                <marker date="1515427026946" expanded="true" signature="3790:3921" ph="INSERT INTO reservation... " />
+                <marker date="1515427026946" expanded="true" signature="4475:4592" ph="INSERT INTO user... " />
+                <marker date="1515427026946" expanded="true" signature="5007:5047" ph="DELETE FROM `reservation`... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accueil.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accueil.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="75" column="70" lean-forward="false" selection-start-line="75" selection-start-column="52" selection-end-line="75" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="traitementResa.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/traitementResa.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="traitementUpdateResa.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/traitementUpdateResa.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connexion.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/connexion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Le mot de passe est invalide !</find>
+      <find>session_start</find>
+      <find>data-seq-enabled</find>
+      <find>admin.php</find>
+      <find>traitementRes</find>
+      <find>listeres</find>
+      <find>Nous avons bien enregistré votre réservation et vous recontacterons dans les plus brefs délais.</find>
+      <find>listeResa</find>
+      <find>ajoutreserva</find>
+      <find>eloisemecozzi@gmail.com</find>
+      <find>traitement</find>
+      <find>traitementUp</find>
+      <find>supprRes</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\UwAmp\www\sunflower1st</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/connexion.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/deconnexion.php" />
+        <option value="$PROJECT_DIR$/assets/js/jquery-ui/jquery.datepicker.fr.js" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/assets/css/modern-slide-in/modern-slide-in/scripts/sequence.js" />
+        <option value="$PROJECT_DIR$/assets/js/jquery-ui/ui/i18n/jquery.datepicker.fr.js" />
+        <option value="$PROJECT_DIR$/finResa.php" />
+        <option value="$PROJECT_DIR$/admin.php" />
+        <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/listeResa.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/traitementCreerCompte.php" />
+        <option value="$PROJECT_DIR$/updateResa.php" />
+        <option value="$PROJECT_DIR$/enregistrement.php" />
+        <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/bdd.php" />
+        <option value="$PROJECT_DIR$/config/connexion.php" />
+        <option value="$PROJECT_DIR$/traitementUpdateResa.php" />
+        <option value="$PROJECT_DIR$/accueil.php" />
+        <option value="$PROJECT_DIR$/supprimerResa.php" />
+        <option value="$PROJECT_DIR$/traitementResa.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="683" />
+    <option name="width" value="683" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sunflower1st" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunflower1st" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="sunflower1st" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunflower1st" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="sunflower1st" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunflower1st" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="mail&#9;null&#9;null&#10;gmail&#9;FILE&#9;file://C:/UwAmp/www/sunflower1st/PHPMailer/examples/gmail.phps" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\UwAmp\www\sunflower1st\assets\js\jquery-ui\ui\i18n" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a70dbe8-3222-49d1-ad55-c29bb4379ba7" name="Default" comment="" />
+      <created>1515399484621</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1515399484621</updated>
+      <workItem from="1515399486349" duration="20057000" />
+      <workItem from="1515423644539" duration="10052000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="30109000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.121522695" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/updateResa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="90" lean-forward="false" selection-start-line="5" selection-start-column="90" selection-end-line="5" selection-end-column="90" />
+          <folding>
+            <marker date="1515425459651" expanded="true" signature="694:1654" ph="..." />
+            <marker date="1515425459651" expanded="true" signature="808:1643" ph="..." />
+            <marker date="1515425459651" expanded="true" signature="820:1553" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accueil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supprimerResa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bdd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="23" lean-forward="false" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+          <folding>
+            <marker date="1515427026946" expanded="true" signature="270:367" ph="SELECT COUNT... relation_user_resa" />
+            <marker date="1515427026946" expanded="true" signature="270:369" ph="SELECT COUNT... relation_user_resa" />
+            <marker date="1515427026946" expanded="true" signature="870:926" ph="SELECT DATE_... reservation" />
+            <marker date="1515427026946" expanded="true" signature="1206:1312" ph="SELECT *, DA... reservation" />
+            <marker date="1515427026946" expanded="true" signature="1811:1950" ph="UPDATE `reservation`... " />
+            <marker date="1515427026946" expanded="true" signature="2550:2699" ph="SELECT *, DA... relation_user_resa" />
+            <marker date="1515427026946" expanded="true" signature="2550:2718" ph="SELECT *, DA... relation_user_resa" />
+            <marker date="1515427026946" expanded="true" signature="2911:2973" ph="SELECT id, p... user" />
+            <marker date="1515427026946" expanded="true" signature="3248:3327" ph="SELECT COUNT... reservation" />
+            <marker date="1515427026946" expanded="true" signature="3790:3921" ph="INSERT INTO reservation... " />
+            <marker date="1515427026946" expanded="true" signature="4475:4592" ph="INSERT INTO user... " />
+            <marker date="1515427026946" expanded="true" signature="5007:5047" ph="DELETE FROM `reservation`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traitementCreerCompte.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traitementResa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/connexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="59" lean-forward="false" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php" />
+    <entry file="file://$PROJECT_DIR$/assets/css/modern-slide-in/modern-slide-in/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-676">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="3613" column="4" lean-forward="false" selection-start-line="3613" selection-start-column="4" selection-end-line="3613" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/modern-slide-in/modern-slide-in/scripts/sequence.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/jquery-ui/ui/i18n/jquery.datepicker.fr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deconnexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mentionLegales.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.php" />
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="32" column="59" lean-forward="false" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enregistrement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <marker date="1515425459729" expanded="true" signature="622:674" ph="..." />
+            <marker date="1515425459729" expanded="true" signature="638:674" ph="..." />
+            <marker date="1515425459729" expanded="true" signature="842:896" ph="..." />
+            <marker date="1515425459729" expanded="true" signature="859:896" ph="..." />
+            <marker date="1515425459729" expanded="true" signature="1066:1122" ph="..." />
+            <marker date="1515425459729" expanded="true" signature="1085:1122" ph="..." />
+            <marker date="1515425459729" expanded="true" signature="1276:1334" ph="..." />
+            <marker date="1515425459729" expanded="true" signature="1298:1334" ph="..." />
+            <marker date="1515425459729" expanded="true" signature="1501:1559" ph="..." />
+            <marker date="1515425459729" expanded="true" signature="1523:1559" ph="..." />
+            <marker date="1515425459729" expanded="true" signature="1691:1765" ph="..." />
+            <marker date="1515425459729" expanded="true" signature="1729:1765" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listeResa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traitementCreerCompte.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="49" lean-forward="false" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHPMailer/examples/gmail.phps">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="35" column="73" lean-forward="false" selection-start-line="35" selection-start-column="73" selection-end-line="35" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/updateResa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <marker date="1515425459651" expanded="true" signature="694:1654" ph="..." />
+            <marker date="1515425459651" expanded="true" signature="808:1643" ph="..." />
+            <marker date="1515425459651" expanded="true" signature="820:1553" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bdd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <marker date="1515427026946" expanded="true" signature="270:367" ph="SELECT COUNT... relation_user_resa" />
+            <marker date="1515427026946" expanded="true" signature="270:369" ph="SELECT COUNT... relation_user_resa" />
+            <marker date="1515427026946" expanded="true" signature="870:926" ph="SELECT DATE_... reservation" />
+            <marker date="1515427026946" expanded="true" signature="1206:1312" ph="SELECT *, DA... reservation" />
+            <marker date="1515427026946" expanded="true" signature="1811:1950" ph="UPDATE `reservation`... " />
+            <marker date="1515427026946" expanded="true" signature="2550:2699" ph="SELECT *, DA... relation_user_resa" />
+            <marker date="1515427026946" expanded="true" signature="2550:2718" ph="SELECT *, DA... relation_user_resa" />
+            <marker date="1515427026946" expanded="true" signature="2911:2973" ph="SELECT id, p... user" />
+            <marker date="1515427026946" expanded="true" signature="3248:3327" ph="SELECT COUNT... reservation" />
+            <marker date="1515427026946" expanded="true" signature="3790:3921" ph="INSERT INTO reservation... " />
+            <marker date="1515427026946" expanded="true" signature="4475:4592" ph="INSERT INTO user... " />
+            <marker date="1515427026946" expanded="true" signature="5007:5047" ph="DELETE FROM `reservation`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/connexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traitementUpdateResa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traitementResa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accueil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="75" column="70" lean-forward="false" selection-start-line="75" selection-start-column="52" selection-end-line="75" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supprimerResa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
