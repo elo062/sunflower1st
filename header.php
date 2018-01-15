@@ -7,7 +7,7 @@ session_start();
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Sunflower : groupe de musique dans l'Aude et l'Hérault</title>
+  <title>Sunflower : groupe de musique sur Narbonne et Béziers (Aude, Hérault)</title>
   <link rel="icon" href="./assets/img/sunflower-logo.ico">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" type="text/css" href="assets/icone/css/font-awesome.css"/>
@@ -48,6 +48,12 @@ session_start();
 
           </a></li>
     </ul>
-    <div class="menuSandwich"><img src="assets/img/menu-sandwich.png" alt="menu" title="menu"></div>
+    <!-- <div class="menuSandwich"><img src="assets/img/menu-sandwich.png" alt="menu" title="menu"></div> -->
+    <div id="nav-icon3">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
   </div>
 </nav>

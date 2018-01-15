@@ -35,14 +35,24 @@ if(isset($_POST['email'])) {
 // on affiche le formulaire de connexion si l'utilisateur n'est pas connecté
 if($connecte == false) {
 ?>
-    <div class="centre">
-           <!-- On prévient le serveur qu'on va envoyer des infos -->
-        <form action="" method="post">
-            E-mail :   <input type="email" name="email" value="<?php echo $email; ?>"><br>
-            Mot de passe : <input type="password" name="mdp"><br>
-            <input type="submit" value="Se connecter" class="button">
-        </form>
-    </div>
+
+    <div class="container">
+    	<section id="content">
+    		<form action=""  method="post">
+                <h1>Connexion</h1>
+    			<div>
+                    <input type="email" placeholder="Email" name="email" id="username" value="<?php echo $email; ?>">
+    			</div>
+    			<div>
+    				<input type="password" placeholder="Mot de passe" name="mdp" required="" id="password" />
+    			</div>
+    			<div>
+    				<input type="submit" value="Se connecter" class="button" />
+    			</div>
+    		</form><!-- form -->
+    	</section><!-- content -->
+    </div><!-- container -->
+
 <?php
 }
 ?>

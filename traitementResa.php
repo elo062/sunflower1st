@@ -8,14 +8,14 @@ $duree = $_POST['duree'];
 $lieu = $_POST['lieu'];
 $message = $_POST['message'];
 $id_user = $_POST['id_user'];
-$idResa = $_GET['id'];
+// $idResa = $_GET['id'];
 
 
 try{
 	$dateDisponible = dateDisponible($bdd, $date);
 
 	if($dateDisponible == false) {
-        $erreur = "Date non disponible, veuillez en sélectionner une autre.";
+        $erreur = "<div class='false'>Date non disponible, veuillez en sélectionner une autre.</div>";
     }
     else {
         insertReservation($bdd, $date, $duree, $lieu, $message, $id_user);
@@ -40,15 +40,14 @@ try{
         Lieu :'.$lieu.'<br />
         Date de la réservation :'.$date.'<br />
         Durée : '.$duree.'<br />
-        Message : '.$message.'<br />
-        ID Résa : '.$idResa.'<br /><br />';
+        Message : '.$message.'<br />';
         $mail->MsgHTML($msg);
 
         // Envoi du mail avec gestion des erreurs
         if(!$mail->Send()) {
             echo 'Erreur : ' . $mail->ErrorInfo;
         } else {
-            echo 'Message envoyé !';
+            echo "<div class='ok'></div>";
         }
 
     }

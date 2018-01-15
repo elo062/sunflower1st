@@ -10,7 +10,7 @@ $idUser = $_SESSION['id'];
 
 $utilisateurACetteReservation = verifResaUtilisateur($bdd, $idResa, $idUser);
 if ($utilisateurACetteReservation == false) {
-    echo "<div class='texte'>Cette réservation ne vous appartient pas.</div>";
+    echo "<div class='false'>Cette réservation ne vous appartient pas.</div>";
 } else {
     $dateResaNonDispo = getListeDateReservationNonDisponible($bdd);
     $reservation = getReservationById($bdd, $idResa);
@@ -18,22 +18,22 @@ if ($utilisateurACetteReservation == false) {
     // On exécute la requête
 
     // formulaire permettant de modifier une résa
-    echo "<div class='texte'>
+    echo "<div class='texte formulaire'>
       <form method='post' action='traitementUpdateResa.php?idResa=" . $idResa . "' enctype='multipart/form-data'>
         <p>
           <label for='date'>Modifiez la date de l'événement :</label>
           <input type='text' name='dateResa'  value='" . $reservation['dateResaFr'] . "'/>
-          <br />
-          <label for='lieu'>Modifiez le lieu de l'événement :</label>
+          </p>
+          <p><label for='lieu'>Modifiez le lieu de l'événement :</label>
           <input type='text' name='lieu'  value='" . $reservation['lieu'] . "'/>
-          <br />
-          <label for='duree'>Modifiez sa durée (exprimée en heures) :</label>
+          </p>
+          <p><label for='duree'>Modifiez sa durée (en heures) :</label>
           <input type='number' name='duree' placeholder='Ex : 2' size='2' value='" . $reservation['duree'] . "'/>
-          <br />
-          <label for='message'>Modifiez le message :</label>
+          </p>
+        <p>  <label for='message'>Modifiez le message :</label>
           <input type='text' name='message'  value='" . $reservation['message'] . "'/>
-          <br />
-        </p>
+          </p>
+
         <input type='submit' name='envoyer' value='Envoyer' class='button'>
       </form>
     </div>";
@@ -42,4 +42,3 @@ if ($utilisateurACetteReservation == false) {
 
 require_once("footer.php");
 ?>
-

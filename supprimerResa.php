@@ -42,7 +42,7 @@ $mail->MsgHTML($msg);
 if(!$mail->Send()) {
     echo 'Erreur : ' . $mail->ErrorInfo;
 } else {
-    echo 'Message envoyé !';
+    echo "<div class='ok'>Message envoyé !</div>";
 }
 
 

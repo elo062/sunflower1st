@@ -17,7 +17,7 @@ var $champ = $('.champ'),
       var windowWidth= $(window).width();
       if(windowWidth < 801){
         $(".op-sectionlist").hide();
-        $(".menuSandwich").show();
+        $("#nav-icon3").show();
         // Au clic la rubrique disparaît
         $(".op-sectionlist").click(function( event ) { // on attache la fonction au click
           $(".op-sectionlist").hide('slow');
@@ -25,11 +25,15 @@ var $champ = $('.champ'),
       }
       // On fait disparaître le menu sandwich sur grand écran
       if(windowWidth > 800){
-        $(".menuSandwich").hide();
+        $("#nav-icon3").hide();
       }
   // Au clic le menu sandwich se déroule doucement
-  $(".menuSandwich").click(function( event ) { // on attache la fonction au click
+  $("#nav-icon3").click(function( event ) { // on attache la fonction au click
     $(".op-sectionlist").slideToggle('slow');
   });
+
+  $('#nav-icon3').click(function(){
+  		$(this).toggleClass('open');
+  	});
 
 });

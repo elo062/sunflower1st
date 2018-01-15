@@ -7,15 +7,18 @@ if (isset($_SESSION['id'])) {
     $information = "";
 
     if(isset($_GET['supprResa'])) {
-        $information =   "<p class='texte'>Votre réservation a bien été supprimée.</p>";
+        $information =   "<div class='ok'>Votre réservation a bien été supprimée.</div>";
+    }
+    if(isset($_GET['modifResa'])) {
+        $information =   "<div class='ok'>Votre réservation a bien été modifiée.</div>";
     }
     if(isset($_GET['inscription'])) {
-        $information =  "Merci de votre inscription";
+        $information =  "<div class='ok'>Merci de votre inscription</div>";
     }
     $erreur = "";
     if(isset($_POST["ajoutReservation"])) {
         include('traitementResa.php');
-
+        $information =  "<div class='ok'>Nous avons bien reçu votre demande de réservation.</div>";
     }
 
     ?>
@@ -23,11 +26,11 @@ if (isset($_SESSION['id'])) {
     <div class='texte'>Bienvenue <?php echo $_SESSION['prenom'] ?> !<br/></div>
     <!--// On lui donne la possibilité de réserver une nouvelle date-->
 
-    <div class='texte'><a href='deconnexion.php'><input type='submit' value='Se déconnecter' class='button'></a></div>
+    <div class='reservations'><a href='deconnexion.php'><input type='submit' value='Se déconnecter' class='button'></a></div>
     <?php echo $erreur; ?>
     <?php echo $information; ?>
-    <h4>Ajouter une réservation</h4>
-    <div class='reservations'>
+    <h4 class='reservations'>Ajouter une réservation :</h4>
+    <div class='reservations formulaire'>
 
         <form action="" method="post" >
             <!-- On récupère l'id_user pour la page traitementResa.php -->
@@ -61,7 +64,7 @@ if (isset($_SESSION['id'])) {
         </form>
     </div>
     <!--// Ou bien de consulter ses réservations-->
-    <h4>Mes réservations</h4>
+    <h4 class='reservations'>Mes réservations :</h4>
     <?php
     $reservations = getLstAllReservationsByUser($bdd, $_SESSION['id']);
 

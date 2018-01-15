@@ -41,9 +41,9 @@ $mail->MsgHTML($msg);
 if(!$mail->Send()) {
   echo 'Erreur : ' . $mail->ErrorInfo;
 } else {
-  echo 'Message envoyé !';
+  echo "<div class='ok'>Message envoyé !</div>";
 }
 
 // Redirection vers la page accueil.php
-header('Location:accueil.php');
+header('Location:accueil.php?modifResa=1');
 ?>
