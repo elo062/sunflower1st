@@ -59,7 +59,7 @@ CREATE TABLE `user` (
   `nom` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `prenom` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `adresse` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `tel` int(10) NOT NULL,
+  `tel` int(10) NOT NULL UNSIGNED ZEROFILL,
   `email` varchar(30) COLLATE utf8_unicode_ci NOT NULL,
   `password` varchar(255) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;

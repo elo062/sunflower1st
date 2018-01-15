@@ -63,7 +63,7 @@ function mailReservation($bdd, $type, $idResa)
         $verbe = "annulé";
     } else if ($type == "ajout") {
         $objet = "Demande de réservation";
-        $verbe = "Demandé";
+        $verbe = "demandé";
     } else if ($type == "modification") {
         $objet = "Modification de réservation";
         $verbe = "modifié";
@@ -95,7 +95,7 @@ function mailReservation($bdd, $type, $idResa)
     // informations du contact
     $mail_content = str_replace('%nom%', ucfirst($_SESSION['nom']), $mail_content);
     $mail_content = str_replace('%prenom%', ucfirst($_SESSION['prenom']), $mail_content);
-    $mail_content = str_replace('%tel%', chunk_split($_SESSION['tel'],2,"."), $mail_content);
+    $mail_content = str_replace('%tel%', wordwrap ($_SESSION['tel'],2,".", 1), $mail_content);
     $mail_content = str_replace('%email%', $_SESSION['email'], $mail_content);
 
     // informations de la réservation
