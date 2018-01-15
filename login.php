@@ -1,7 +1,7 @@
 <?php
 require_once ("header.php");
 require_once("./config/connexion.php");
-require_once("./bdd.php");
+require_once("./model/bdd.php");
 
 
 $connecte = false;
@@ -20,6 +20,8 @@ if(isset($_POST['email'])) {
         $_SESSION['client'] = true ;
         $_SESSION['id'] = $result['id'];
         $_SESSION['email'] = $email;
+        $_SESSION['tel'] = $result['tel'];
+
         $_SESSION['nom'] = $result['nom'];
         $_SESSION['prenom'] = $result['prenom'];
 

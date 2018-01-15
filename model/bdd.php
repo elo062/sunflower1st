@@ -70,7 +70,7 @@ function getLstAllReservationsByUser($bdd, $idUser) {
 
 function getUtilisateurByEmail($bdd, $email) {
     // On récupère toutes les infos de la table user
-    $req = $bdd->prepare('SELECT id, password, prenom, nom FROM user WHERE email= :email');
+    $req = $bdd->prepare('SELECT id, password, prenom, nom, tel FROM user WHERE email= :email');
     // bindParam : à faire
     $req->execute(array('email'=>$email));
     $result = $req->fetch(PDO::FETCH_ASSOC);
@@ -109,6 +109,8 @@ function insertReservation($bdd, $date, $duree, $lieu, $message, $id_user) {
     $req->bindValue( ':lieu' , htmlspecialchars($lieu));
     $req->bindValue( ':message' , htmlspecialchars($message));
     $req->execute();
+
+    return $bdd->lastInsertId();
 
 }
 

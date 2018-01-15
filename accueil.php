@@ -1,21 +1,27 @@
 <?php
 require_once('header.php');
 require_once('config/connexion.php');
-require_once('bdd.php');
+require_once('model/bdd.php');
 // si l'utilisateur est connecté on affiche l'accueil
 if (isset($_SESSION['id'])) {
     $information = "";
 
     if(isset($_GET['supprResa'])) {
+
         $information =   "<p class='texte'>Votre réservation a bien été supprimée.</p>";
     }
+
     if(isset($_GET['inscription'])) {
         $information =  "Merci de votre inscription";
     }
     $erreur = "";
     if(isset($_POST["ajoutReservation"])) {
-        include('traitementResa.php');
+        include('traitementAjoutReservation.php');
 
+    }
+    if(isset($_GET['modifResa'])) {
+
+        $information =   "<p class='texte'>Votre réservation a bien été modifiée.</p>";
     }
 
     ?>
@@ -30,10 +36,10 @@ if (isset($_SESSION['id'])) {
     <div class='reservations'>
 
         <form action="" method="post" >
-            <!-- On récupère l'id_user pour la page traitementResa.php -->
+            <!-- On récupère l'id_user pour la page ajoutReservation.php -->
             <input type="hidden" name="id_user" value="<?php echo $_SESSION['id']; ?>"/>
             <?php
-            // On récupère le message d'erreur de la page traitementResa.php si la date est déjà réservée
+                // On récupère le message d'erreur de la page ajoutReservation.php si la date est déjà réservée
             if (isset($_GET['message'])) {
                 if ($_GET['message'] == 'erreurDate') {
                     echo "<div class='false'>La date choisie est déjà prise, merci d'en choisir une autre.</div></br>";
@@ -41,7 +47,7 @@ if (isset($_SESSION['id'])) {
             }
 
             require_once("./config/connexion.php");
-            require_once("./bdd.php");
+            require_once("./model/bdd.php");
 
 
             $dateResaNonDispo = getListeDateReservationNonDisponible($bdd);
@@ -70,10 +76,10 @@ if (isset($_SESSION['id'])) {
         echo "<p class='reservations'>Date : " . $reservation['dateResaFr'] . "</p>";
         echo "<p class='reservations'>Lieu : " . $reservation['lieu'] . "</p>";
         echo "<p class='reservations'>Durée : " . $reservation['duree'] . " heure(s) </p>";
-        echo "<p class='reservations'>Message : " . $reservation['message'] . " </p>";
+        echo "<p class='reservations'>Message : " . nl2br( $reservation['message']). " </p>";
         echo "<p class='reservations'><a href='updateResa.php?idResa=" . $reservation['id'] . "'><input type='submit' value='Modifier' class='button' name='idResa'></a>";
-        // Lorsqu'on clique sur "annuler" on récupère l'id de la résa et on est redirigé vers la page supprimerResa.php pour le traitement
-        echo "<a href='supprimerResa.php?idResa=" . $reservation['id'] . "&idUser=" . $reservation['id_utilisateur'] . "'><input type='submit' value='Annuler' class='button' name='idResa'></a></p>";
+        // Lorsqu'on clique sur "annuler" on récupère l'id de la résa et on est redirigé vers la page traitementSuppressionReservation.php pour le traitement
+        echo "<a href='traitementSuppressionReservation.php?idResa=" . $reservation['id'] . "&idUser=" . $reservation['id_utilisateur'] . "'><input type='submit' value='Annuler' class='button' name='idResa'></a></p>";
         echo "<hr>";
     }
 

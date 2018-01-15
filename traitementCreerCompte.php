@@ -1,5 +1,6 @@
 <?php
-require_once("header.php");
+require_once("./header.php");
+
 if (empty($_SESSION['id'])) //les membres connecte ne peuvent pas s'inscrire
 {
     $nom = "";
@@ -24,7 +25,7 @@ if (empty($_SESSION['id'])) //les membres connecte ne peuvent pas s'inscrire
             if (preg_match("#^[a-z0-9._-]+@[a-z0-9._-]{2,}.[a-z]{2,4}$#", $_POST['email'])) {
                 // On se connecte à la bdd
                 require_once("./config/connexion.php");
-                require_once("bdd.php");
+                require_once("./model/bdd.php");
                 //  /*on verifie si un membre ne possede pas deja le meme pseudo*/
                 //     $req = $bdd->prepare('SELECT membre_id FROM membres WHERE membre_pseudo = :membre_pseudo');
                 //     $req->execute(array('membre_pseudo'=> $_POST['membre_pseudo']));
@@ -57,6 +58,7 @@ if (empty($_SESSION['id'])) //les membres connecte ne peuvent pas s'inscrire
                     $_SESSION['client'] = true;
                     $_SESSION['id'] = $bdd->lastInsertId();
                     $_SESSION['email'] = $email;
+                    $_SESSION['tel'] = $tel;
                     $_SESSION['nom'] = $nom;
                     $_SESSION['prenom'] = $prenom;
 
