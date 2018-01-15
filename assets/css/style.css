@@ -250,6 +250,11 @@ form h1{
 	width: 500px;
 }
 
+/*Modif résa*/
+.formulaire h4{
+margin-bottom: 4%;
+}
+
 .centre{
 	display: flex;
 	justify-content: center;
@@ -388,14 +393,6 @@ footer{
 .rs a:hover{
 	color: #ffd700;
 }
-/*.menuSandwich{
-	display: none;
-	position: fixed;
-	z-index: 1000;
-	width: 100px;
-	margin: 20px 20px;
-}*/
-
 
 
 /*Formulaire stylé*/
@@ -600,13 +597,10 @@ footer{
         font-size: 1.3em;
     }
 
-		/*Menu avant*/
-		/*.menuSandwich{
-			position: fixed;
-			z-index: 1000;
-			width: 130px;
-			margin: 20px 20px;
-		}*/
+		/*Modif résa*/
+.formulaire h4{
+	margin: 10% 0 10% 0;
+}
 
 		/*Nouveau menu*/
 		#nav-icon3{
@@ -688,11 +682,10 @@ footer{
 	#demo iframe{
 		max-width: 100%;
 	}
-	/*.menuSandwich{
-		position: fixed;
-		z-index: 1000;
-		margin: 10px;
-	}*/
+	/*Modif résa*/
+.formulaire h4{
+margin: 18% 0 10% 0;
+}
 	/*Nouveau menu*/
 	#nav-icon3{
 		width: 52px;

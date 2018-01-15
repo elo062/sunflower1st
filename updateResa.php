@@ -21,22 +21,24 @@ if ($utilisateurACetteReservation == false) {
     // On exécute la requête
 
     // formulaire permettant de modifier une résa
-    echo '<div class="texte">
+    echo '<div class="texte formulaire">
 <h4>Modification de la réservation</h4>
       <form method="post" action="traitementModificationReservation.php?idResa=' . $idResa . '">
         <p>
           <label for="date">Date de l\'événement :</label>
           <input type="text" name="dateResa"  value="' . $reservation["dateResaFr"] . '"/>
-          <br />
+        </p>
+        <p>
           <label for="lieu">Lieu de l\'événement :</label>
           <input type="text" name="lieu"  value="' . $reservation["lieu"] . '"/>
-          <br />
+        </p>
+        <p>
           <label for="duree">Durée (exprimée en heures) :</label>
           <input type="number" name="duree" placeholder="Ex : 2" size="2" value="' . $reservation["duree"] . '"/>
-          <br />
+        </p>
+        <p>
           <label for="message">Message :</label>
           <textarea name="message" rows="10" cols="50">' . $reservation["message"] . '</textarea>
-          <br />
         </p>
         <input type="submit" name="envoyer" value="Envoyer" class="button">
       </form>
@@ -46,4 +48,3 @@ if ($utilisateurACetteReservation == false) {
 
 require_once("footer.php");
 ?>
-
