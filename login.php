@@ -43,9 +43,11 @@ if($connecte == false) {
     		<form action=""  method="post">
                 <h1>Connexion</h1>
     			<div>
-                    <input type="email" placeholder="Email" name="email" id="username" value="<?php echo $email; ?>">
+            <label for="username">Email :</label>
+            <input type="email" placeholder="Email" name="email" id="username" value="<?php echo $email; ?>">
     			</div>
     			<div>
+            <label for="password">Mot de passe :</label>
     				<input type="password" placeholder="Mot de passe" name="mdp" required="" id="password" />
     			</div>
     			<div>
