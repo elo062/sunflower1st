@@ -5,11 +5,7 @@ require_once("./model/bdd.php");
 require_once('./redirection.php');
 
 
-// On récupère l'id de la résa de la page updateResa.php
-// @ permet de ne pas afficher d'erreur si l'id de résa n'est pas passée dans l'url
-$idResa = @(int)$_GET['id'];
 
-if ($idResa > 0) {
     $date = $_POST['dateResa'];
     $duree = $_POST['duree'];
     $lieu = $_POST['lieu'];
@@ -27,16 +23,13 @@ if ($idResa > 0) {
             $idResa = insertReservation($bdd, $date, $duree, $lieu, $message, $id_user);
 
             require_once('model/mail.php');
-            mailReservation($bdd, 'Ajout', $idResa);
+            mailReservation($bdd, 'ajout', $idResa);
 
-            header('Location:accueil.php?modifResa=1');
         }
 
     } catch (Exception $e) {
         $erreur = 'La base de donnée rencontre un problème, merci de nous en informer via le formulaire de contact.';
     }
-}
-else {
-    header('Location:accueil.php');
-}
+
+
 ?>

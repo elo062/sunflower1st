@@ -23,7 +23,7 @@ if($idResa > 0) {
 
     echo mailReservation($bdd, 'modification', $idResa);
 // Redirection vers la page accueil.php
-//    header('Location:accueil.php?modifResa=1');
+    header('Location:accueil.php?modifResa=1');
 }
 else {
   echo "La réservation n'existe pas";

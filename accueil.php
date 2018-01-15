@@ -20,10 +20,7 @@ if (isset($_SESSION['id'])) {
         include('traitementAjoutReservation.php');
         $information =  "<div class='ok'>Nous avons bien reçu votre demande de réservation.</div>";
     }
-    if(isset($_GET['modifResa'])) {
 
-        $information =   "<div class='ok'>Votre réservation a bien été modifiée.</div>";
-    }
 
     ?>
     <!--    On prévient le visiteur qu'il est bien connecté-->
