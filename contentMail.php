@@ -50,7 +50,7 @@
 
 </div>
 <div class="content">
-    <span class="contact">%nom% %prenom%</span> a %phrase.
+    <span class="contact">%nom% %prenom%</span> a %verbe% une réservation.
 
     <div class="informationContact">
         <h4>Informations de l'utilisateur</h4>

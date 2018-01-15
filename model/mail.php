@@ -57,15 +57,16 @@ function mailReservation($bdd, $type, $idResa)
     $mail = getConfig();
 
 // Objet
+    $verbe = "";
     if ($type == "annulation") {
         $objet = "Annulation réservation";
-        $phrase = "annulé une réservation.";
+        $verbe = "annulé";
     } else if ($type == "ajout") {
         $objet = "Demande de réservation";
-        $phrase = "Demandé une réservation.";
+        $verbe = "Demandé";
     } else if ($type == "modification") {
         $objet = "Modification de réservation";
-        $phrase = "modifié la réservation.";
+        $verbe = "modifié";
     }
     $mail->Subject = $objet;
 
@@ -89,7 +90,7 @@ function mailReservation($bdd, $type, $idResa)
 
     // on remplace les variables entre % dans la page
 
-    $mail_content = str_replace('%phrase', $phrase, $mail_content);
+    $mail_content = str_replace('%verbe%', $verbe, $mail_content);
 
     // informations du contact
     $mail_content = str_replace('%nom%', ucfirst($_SESSION['nom']), $mail_content);
@@ -102,7 +103,7 @@ function mailReservation($bdd, $type, $idResa)
     $mail_content = str_replace('%date%', $reservation["dateResaFr"], $mail_content);
     $mail_content = str_replace('%lieu%', $reservation['lieu'], $mail_content);
     $mail_content = str_replace('%duree%', $reservation['duree'], $mail_content);
-    $mail_content = str_replace('%message%', $reservation['message'], $mail_content);
+    $mail_content = str_replace('%message%', nl2br($reservation['message']), $mail_content);
 
     $mail->msgHTML($mail_content);
 
@@ -110,7 +111,7 @@ function mailReservation($bdd, $type, $idResa)
     if (!$mail->Send()) {
         return 'Erreur : ' . $mail->ErrorInfo;
     } else {
-        return 'Message envoyé !';
+        return '<p class="ok">Message envoyé !</p>';
     }
 
 }
