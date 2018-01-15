@@ -22,7 +22,7 @@ if (isset($_SESSION['id'])) {
     }
     if(isset($_GET['modifResa'])) {
 
-        $information =   "<p class='texte'>Votre réservation a bien été modifiée.</p>";
+        $information =   "<div class='ok'>Votre réservation a bien été modifiée.</div>";
     }
 
     ?>

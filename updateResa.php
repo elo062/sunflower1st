@@ -40,7 +40,7 @@ if ($utilisateurACetteReservation == false) {
         </p>
         <input type="submit" name="envoyer" value="Envoyer" class="button">
       </form>
-    </div>";
+    </div>';
 
 };
 
