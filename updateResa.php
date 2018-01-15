@@ -10,9 +10,10 @@ $idResa = @$_GET['idResa'];
 
 $idUser = $_SESSION['id'];
 
+
 $utilisateurACetteReservation = verifResaUtilisateur($bdd, $idResa, $idUser);
 if ($utilisateurACetteReservation == false) {
-    echo "<div class='texte'>Cette réservation ne vous appartient pas.</div>";
+    echo "<div class='false'>Cette réservation ne vous appartient pas.</div>";
 } else {
     $dateResaNonDispo = getListeDateReservationNonDisponible($bdd);
     $reservation = getReservationById($bdd, $idResa);
@@ -39,7 +40,7 @@ if ($utilisateurACetteReservation == false) {
         </p>
         <input type="submit" name="envoyer" value="Envoyer" class="button">
       </form>
-    </div>';
+    </div>";
 
 };
 
