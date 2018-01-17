@@ -11,7 +11,7 @@
         <p><a href="#">Mentions Légales</a></p>
         <p>|</p>
         <p><a href="#">Plan du site</a></p>
-        <a href="#"><img src="assets/img/arrow.png" alt="arrow" title="arrow" class="scrollToTop"></a>
+        <a href="#"><img src="assets/img/arrow.png" alt="Flèche permettant d'aller en haut de la page" title="Haut de page" class="scrollToTop"></a>
     </div>
 
 </footer>
@@ -26,6 +26,7 @@
 <script src="assets/js/login.js"></script>
 <script src="assets/js/gotToTop.js"></script>
 <script src="assets/js/scrollTo.js"></script>
+<!-- slider -->
 <script src="assets/css/modern-slide-in/modern-slide-in/scripts/imagesloaded.pkgd.min.js"></script>
 <script src="assets/css/modern-slide-in/modern-slide-in/scripts/hammer.min.js"></script>
 <script src="assets/css/modern-slide-in/modern-slide-in/scripts/sequence.min.js"></script>

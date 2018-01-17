@@ -28,12 +28,12 @@ session_start();
         <i class="fa fa-phone" aria-hidden="true"></i>06.10.93.37.46
         </a>
         </span>
-        <span class="coordonnees"><a href="mailto:contact@sunflower.com"><i class="fa fa-envelope" aria-hidden="true"></i>Envoyer un mail</a></span>
+        <span class="coordonnees"><a href="mailto:sunflower.groupe@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>Envoyer un mail</a></span>
       </div>
       <li class="rubrique"><a class="lien-rubrique" href="index.php#accueil">ACCUEIL</a></li>
       <li class="rubrique"><a class="lien-rubrique" href="index.php#intro">PRÉSENTATION</a></li>
       <li class="rubrique"><a class="lien-rubrique" href="index.php#demo">DÉMO</a></li>
-      <li class="rubrique"><a class="lien-rubrique" href="index.php#contact">CONTACT</a></li>
+      <li class="rubrique"><a class="lien-rubrique" href="index.php#contact">NOUS SITUER</a></li>
       <!-- <li class="rubrique"><a class="lien-rubrique" href="index.php#reservation">DEMANDE DE RESERVATION</a></li> -->
       <!-- <li class="rubrique"><a class="lien-rubrique" href="index.php#mysect6">MENU ITEM 6</a></li> -->
       <li class="rubrique">
@@ -48,7 +48,7 @@ session_start();
 
           </a></li>
     </ul>
-    <!-- <div class="menuSandwich"><img src="assets/img/menu-sandwich.png" alt="menu" title="menu"></div> -->
+    <!-- Menu sandwich responsive -->
     <div id="nav-icon3">
       <span></span>
       <span></span>

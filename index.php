@@ -3,6 +3,7 @@
 <!-- Wrapper sections -->
 <div class="content">
   <section id="accueil">
+    <!-- Slider -->
     <div id="sequence" class="seq">
 
       <div class="seq-screen">
@@ -54,6 +55,7 @@
       </ul>
     </div>
   </section>
+  <!-- Section Présentation -->
   <section id="intro">
     <div class="presentation">
       <h2>﻿Vous cherchez un groupe pour animer un mariage, une réception, une soirée ?</h2>
@@ -82,11 +84,14 @@
       </div>
     </div>
   </section>
+  <!-- Section démo vidéo -->
   <section id="demo">
     <iframe src="https://player.vimeo.com/video/2306191?title=0&byline=0&portrait=0" width="840" height="473" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>
   </section>
+  <!-- Section formulaire de contact -->
   <section id="contact">
-    <h1>Contact</h1>
+    <!-- Carte Google -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2909.0776943332376!2d2.9890109149120203!3d43.186880590477784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b1ac4458fedf41%3A0xaf06c215d114c329!2sAvenue+Anatole+France%2C+11100+Narbonne!5e0!3m2!1sfr!2sfr!4v1516118240441" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
   </section>
   <!-- <section id="reservation">
     <h1>Demande de réservation</h1>

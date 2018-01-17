@@ -136,13 +136,13 @@ section h1 {
 
 	/*Chaque partie de la one-page contient une image différente*/
 
-#accueil{
+/*#accueil{
 	background-image: url('https://j.gifs.com/vo26nm.gif');
 	background-repeat:no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center center;
-}
+}*/
 
 #intro{
 	background-image: url('../img/music.jpg');
@@ -165,11 +165,11 @@ section h1 {
 }
 
 #contact{
-	background-image: url('../img/guitar3.jpg');
-	background-repeat:no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	background-position: center center;
+	background-color: black;
+}
+
+#contact iframe{
+	width: 100%;
 }
 
 #reservation{
